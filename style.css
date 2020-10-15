@@ -10,9 +10,24 @@ body {
   margin: 0;
   font-size: 2rem;
   display: flex;
+  justify-content: center;
   flex: 1;
   min-height: 100vh;
   align-items: center;
+}
+
+.title {
+  margin-bottom: 35px;
+}
+
+.signature {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.link {
+  text-decoration: underline;
+  color: black;
 }
 
 .clock {
@@ -40,8 +55,6 @@ body {
   background: black;
   position: absolute;
   top: 50%;
-
-  /*added during the course*/
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
